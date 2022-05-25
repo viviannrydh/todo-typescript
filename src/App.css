@@ -1,38 +1,104 @@
-.App {
+.app-wrapper{
+  background-color: rgb(199, 240, 243);
+  height: 100vh;
+}
+
+.header-wrapper{
+  width:50%;
+  margin-left:25%;
+  padding-top:5%;
+}
+
+.header-btn{
+  width:150px;
+  height:150px;
+  font-size: 5rem;
+  margin-right:10px;
+  border:none;
+  margin-left:20px;
+}
+.btn-t{
+  background-color:rgb(253, 253, 171);
+  margin-left:60px;
+}
+.btn-o{
+  background-color:rgb(253, 175, 188);
+}
+.btn-d{
+  background-color:rgb(105, 210, 245);
+}
+.btn-o2{
+  background-color:lightgreen;
+}
+
+
+
+.input-wrapper{
+  display:flex;
+  flex-direction: row;
+  padding-top:5%;
+  padding-bottom: 5%;
+  padding-left: 30%;
+
+}
+
+input{
+  height:45px;
+  width:280px;
   text-align: center;
+  border:1px rgb(1, 162, 190) solid;
+  color:rgb(2, 60, 87);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.todo-lists{
+  width:50%;
+  background-color:white;
+  margin-top: 0%;
+  margin-left: 25%;
+  margin-bottom: -0.5%;
+}
+.todo-list{
+  width:80%;
+  background-color:white;
+  margin-left:10%;
+}
+.todo-name{
+  width:60%;
+  height:50px;
+  padding:0px;
+  margin-top:0px;
+  margin-bottom:-5px;
+  border:none;
+  background-color: white;
+  color:rgb(3, 40, 61);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:1.1rem;
+}
+.todo-deadline{
+  height:50px;
+  width:30%;
+  color:rgb(2, 92, 57);
+  font-size: 1.2rem;
+  margin-top:0px;
+  background-color: white;
+  border:none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.add-btn{
+  background-color:rgb(4, 125, 155);
+  border:none;
+  width:60px;
+  color:white;
+  font-weight: bold;
+  font-size:2rem;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.close-btn{
+  width:10%;
+  height: 50px;
+  padding-top:5px;
+  color:red;
+  border:none;
+  background-color:white;
+  font-size:1.5rem;
 }
